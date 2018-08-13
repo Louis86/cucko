@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.petero.cuckoo</groupId>
 	<artifactId>cuckoo</artifactId>
-	<version>>0.8</version>
+	<version>0.8</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>cuckoo-engine</module>
