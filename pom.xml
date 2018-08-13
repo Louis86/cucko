@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.petero.cuckoo</groupId>
 	<artifactId>cuckoo</artifactId>
-	<version>1.12</version>
+	<version>>0.8</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>cuckoo-engine</module>
@@ -40,7 +40,7 @@
 		    <plugin>
 		      <groupId>org.jacoco</groupId>
 		      <artifactId>jacoco-maven-plugin</artifactId>
-		      <version>0.8.2.201808120905</version>
+		      <version>0.8</version>
 		      <executions>
 			<execution>
 			  <id>pre-unit-test</id>
