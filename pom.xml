@@ -33,23 +33,6 @@
 				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>2.7</version>
 			</plugin>
-			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>3.0.1</version>
-				<execution>
-					<goals>
-						<goal>prepare-agent</goal>
-					</goals>
-				</execution>
-				<execution>
-					<id>report</id>
-						<phase>prepare-package</phase>
-					<goals>
-						<goal>report</goal>
-					</goals>
-				</executions>
-			</plugin>
 		</plugins>
 	</reporting>
 	<build>
