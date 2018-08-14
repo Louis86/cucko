@@ -126,7 +126,6 @@
 							<includeTestResources>true</includeTestResources>
 							<resourceIncludes>**/*.properties,**/*.conf,**/*.json,**/*.xml</resourceIncludes>
 							<includeTestSourceDirectory>true</includeTestSourceDirectory>
-							<configLocation>src/main/resources/checkstyle-config.xml</configLocation>
 						</configuration>
 						<goals>
 							<goal>check</goal>
