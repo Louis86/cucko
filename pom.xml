@@ -127,7 +127,6 @@
 							<resourceIncludes>**/*.properties,**/*.conf,**/*.json,**/*.xml</resourceIncludes>
 							<includeTestSourceDirectory>true</includeTestSourceDirectory>
 							<configLocation>src/main/resources/checkstyle-config.xml</configLocation>
-							<suppressionsLocation>src/main/resources/checkstyle-suppressions.xml</suppressionsLocation>
 						</configuration>
 						<goals>
 							<goal>check</goal>
